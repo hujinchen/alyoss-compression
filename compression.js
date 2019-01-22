@@ -86,4 +86,9 @@ function add0(m) {
 }
 
 // 创建OSSClient实例
-let client = new OSS({ region: 'oss-cn-beijing', accessKeyId: 'LTAIGxljrInFc7ft', accessKeySecret: 'PhukiY05ACnd5IMCeOsDncLUUfH4dL', bucket: 'yunhuichuan' });
+let client = new OSS({  
+    region: '<Your region>',
+    accessKeyId: '<Your AccessKeyId>',
+    accessKeySecret: '<Your AccessKeySecret>',
+    bucket: '<Your bucket name>'
+});
